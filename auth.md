@@ -301,7 +301,7 @@ Regardless of auth mechanism
 
 ## Resources
 - https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/ **Very useful link**
-- 
+- https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec **WHAT IS JWT ?**
 
 #### YouTube
 - [100% Stateless with JWT (JSON Web Token) by Hubert Sablonnière](https://www.youtube.com/watch?v=67mezK3NzpU)
