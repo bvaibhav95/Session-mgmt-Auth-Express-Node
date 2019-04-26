@@ -87,7 +87,10 @@ Set-Cookie: SESS_ID=9vKnWqiZvuvVsIV1zmzJQeYUgINqXYeS; Domain=example.com; Path=/
 - user sends the token along with each request
 - server verifies the token & grants access
 - when user logs out, token is cleared from client storage
-- A Refresh Token is a special kind of token that can be used to obtain a renewed access token —that allows accessing a protected resource— at any time. You can request new access tokens until the refresh token is blacklisted. Refresh tokens must be stored securely by an application because they essentially allow a user to remain authenticated forever.
+- **A Refresh Token is a special kind of token that can be used to obtain a renewed access token —that allows accessing a protected resource— at any time. You can request new access tokens until the refresh token is blacklisted. Refresh tokens must be stored securely by an application because they essentially allow a user to remain authenticated forever.**
+- **The idea of refresh tokens is that if an access token is compromised, because it is short-lived, the attacker has a limited window in which to abuse it.**
+
+- **Refresh tokens, if compromised, are useless because the attacker requires the client id and secret in addition to the refresh token in order to gain an access token.**
 
 ### Features
 
@@ -146,6 +149,10 @@ atob('eyJzdWIiOiI1YmQ2MWFhMWJiNDNmNzI0M2EyOTMxNmQiLCJuYW1lIjoiSm9obiBTbWl0aCIsIm
   - steal user data from the token
   - initiate AJAX requests on behalf of user
 - mitigated by sanitizing & escaping user input
+
+## CSRF attacks 
+
+## CORS
 
 ## Client Storage
 
