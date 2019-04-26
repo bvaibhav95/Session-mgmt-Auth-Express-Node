@@ -300,7 +300,7 @@ Regardless of auth mechanism
 - API throttling
 
 ## Resources
-- https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/
+- https://nodewebapps.com/2017/06/18/how-do-nodejs-sessions-work/ **Very useful link**
 - 
 
 #### YouTube
